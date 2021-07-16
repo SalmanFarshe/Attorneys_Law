@@ -33,7 +33,7 @@
 	transition: 0.3s all ease;
 }
 body{
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
 }
 .preloader{
 	width: 100%;
