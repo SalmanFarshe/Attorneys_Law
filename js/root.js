@@ -30,9 +30,9 @@ $(".flex-slider").flexslider({
 // flex slider end
 
 // counter
-var countingNomber1 = setInterval(counter1, 100);
-var countingNomber2 = setInterval(counter2, 100);
-var countingNomber3 = setInterval(counter3, 100);
+var countingNomber1 = setInterval(counter1, 10);
+var countingNomber2 = setInterval(counter2, 30);
+var countingNomber3 = setInterval(counter3, 50);
 var countingNomber4 = setInterval(counter4, 100);
 var count1 = 1;
 var count2 = 1;
@@ -43,16 +43,17 @@ var countNumber2 = document.querySelector(".count-number-2");
 var countNumber3 = document.querySelector(".count-number-3");
 var countNumber4 = document.querySelector(".count-number-4");
 function counter1() {
+	count1 + 400;
 	count1++;
 	countNumber1.innerHTML = count1;
-	if (count1 == 100) {
+	if (count1 == 549) {
 		clearInterval(countingNomber1);
 	}
 }
 function counter2() {
 	count2++;
 	countNumber2.innerHTML = count2;
-	if (count2 == 200) {
+	if (count2 == 247) {
 		clearInterval(countingNomber2);
 	}
 }
@@ -66,7 +67,48 @@ function counter3() {
 function counter4() {
 	count4++;
 	countNumber4.innerHTML = count4;
-	if (count4 == 50) {
+	if (count4 == 20) {
 		clearInterval(countingNomber4);
 	}
+}
+
+// responsive mobile menu
+var faBars = document.querySelector(".fa-bars");
+var faTimes = document.querySelector(".fa-times");
+var menu = document.querySelector(".menu");
+var empty = document.querySelector(".empty");
+faBars.addEventListener("click", function () {
+	menu.classList.remove("menu");
+	menu.classList.add("menu1");
+	faTimes.style.visibility = "visible";
+	faBars.style.visibility = "hidden";
+	faTimes.style.color = "white";
+});
+faTimes.addEventListener("click", function () {
+	faTimes.style.visibility = "hidden";
+	faBars.style.visibility = "visible";
+	menu.classList.add("menu");
+});
+empty.addEventListener("click", function () {
+	faTimes.style.visibility = "hidden";
+	faBars.style.visibility = "visible";
+	menu.classList.add("menu");
+});
+
+// sticky navigation
+window.onscroll = function () {
+	scrollFunction();
+};
+function scrollFunction() {
+	var sticky = document.getElementById("sticky");
+	if (window.pageYOffset >= 100) {
+		sticky.classList.add("sticky");
+	} else {
+		sticky.classList.remove("sticky");
+	}
+}
+
+// preloader
+function webPreloader(){
+	document.querySelector(".preloader").style.display = "none"
 }

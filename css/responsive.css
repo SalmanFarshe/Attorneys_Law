@@ -1,0 +1,830 @@
+/* wide screen */
+@media (min-width: 1501px) {
+	.sub-wrapper {
+		width: 1400px;
+		margin: 0% auto;
+	}
+	iframe {
+		width: 35%;
+		height: 60%;
+		left: 10%;
+		position: absolute;
+	}
+	#section {
+		height: 500px;
+		position: relative;
+	}
+	.recentPost-button {
+		margin-left: 22%;
+	}
+	.flex-slider {
+		height: 100vh;
+	}
+	.fa-bars,
+	.fa-times {
+		display: none;
+	}
+}
+
+/*Device = Desktops
+Screen = 1281px to higher resolution desktops*/
+@media (min-width: 1281px) and (max-width: 1500px) {
+	.sub-wrapper {
+		width: 90%;
+	}
+	.flex-slider {
+		height: 100%;
+	}
+	.fa-bars,
+	.fa-times {
+		display: none;
+	}
+	.header {
+		grid-template-columns: 0.5fr 4fr 1fr;
+	}
+	.menu {
+		justify-self: center;
+	}
+}
+
+/*Device = Laptops, Desktops
+Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.sub-wrapper {
+		width: 90%;
+	}
+	.header {
+		grid-template-columns: 0.5fr 4fr 1fr;
+	}
+	.button-all{
+		border-radius: 10px;
+		padding: 10px 12px;
+	}
+	.menu {
+		justify-self: center;
+	}
+	.slider-content-button {
+		color: var(--body-bg-color-);
+		background-color: var(--button-color-);
+		padding: 15px 20px 15px 20px;
+		border: none;
+		border-radius: 50px;
+		margin-top: 25px;
+		font-size: 16px;
+	}
+	.recentPost-details-para {
+		margin-bottom: 15px;
+	}
+	.recentPost-button {
+		padding: 10px 20px;
+		margin-left: 25%;
+		margin-bottom: 20%;
+	}
+	.footer-wrapper-p {
+		text-align: start;
+		text-transform: uppercase;
+		line-height: 100%;
+	}
+	.fa-bars,
+	.fa-times {
+		display: none;
+	}
+}
+
+/*Device = Tablets, Ipads (portrait)
+Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	.header {
+		grid-template-columns: 0.5fr 4fr 1fr;
+	}
+	.button-all {
+		padding: 8px 10px;
+		border-radius: 10px;
+	}
+	.menu {
+		justify-self: center;
+	}
+	.menu ul li a {
+		padding: 0%;
+		margin: 10px;
+	}
+	.counter-main-wrap {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.counter-wrapper {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.sub-wrapper {
+		width: 100%;
+	}
+	#section {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.choose-us-video {
+		grid-row-start: 2;
+		margin: 5%;
+	}
+	.chose-us-description {
+		margin: 5%;
+	}
+	.practice-area-demoDiv {
+		height: 350px;
+		width: 95%;
+		position: relative;
+		margin: 2.5%;
+	}
+	.practice-area-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:repeat(6, 350px) ;
+        position: relative;
+	}
+    .practice-area-header{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        padding: 50px;
+        width: 100%;
+    }
+    .recentPost-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:300px repeat(3, 600px);
+        height: 100%;
+        margin: 2%;
+    }
+    .recentPost-header{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .counseling-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:repeat(4, 350px);
+        grid-gap: 30px !important;
+    }
+    .counseling-header{
+        width: 80%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .grid-no-1, .grid-no-3, .grid-no-5, .grid-no-7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .grid-no-2,.grid-no-4,.grid-no-6,.grid-no-8{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .grid-no-9{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .practice-area-demoDiv-button{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+    }
+	.counseling-wrapper {
+		grid-gap: 10px;
+		margin: 1%;
+	}
+	.submission-img {
+		margin: 3%;
+	}
+	.from-input-button {
+		height: 50px !important;
+		width: 40% !important;
+		border-radius: 15px;
+	}
+	.testimonial-headding {
+		margin-top: 70px;
+	}
+	.testimonial-para {
+		width: 400px;
+		margin-top: 20px;
+	}
+	.comment-info-wrapper {
+		height: 300px;
+	}
+	.recentPost-details-heading {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+	.recentPost-details-para {
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.recentPost-button {
+		padding: 12px 30px;
+		font-size: 14px;
+		margin-left: 33%;
+
+	}
+	.Attorneys-wrapper {
+		margin: 3%;
+		margin-bottom: 100px;
+	}
+	.footer-left-div {
+		display: none;
+	}
+	.footer-wrapper {
+		grid-template-columns: repeat(3, 30%);
+		grid-gap: 20px;
+	}
+	.fa-bars,
+	.fa-times {
+		display: none;
+	}
+    .Attorneys-wrapper{
+        display: block;
+        margin: 20%;
+    }
+    .Attorneys-profile{
+        margin: 10%;
+    }
+    .Attorneys-wrapper-header{
+        width: 100%;
+    }
+    .Attorneys-wrapper-header p{
+        font-size: 14px;
+    }
+}
+
+/*Device = Low Resolution Tablets, Mobiles (Landscape)
+Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+	.menu {
+		display: none;
+	}
+	.menu1 {
+		height: 100vh;
+		width: 100%;
+		left: 0%;
+		z-index: 10;
+		position: fixed;
+		top: 0%;
+		background-color: rgba(0, 0, 0, 0.884);
+	}
+	.menu1 ul {
+		position: absolute;
+		left: 40px;
+		margin-top: 50px;
+		list-style-type: none;
+	}
+	.menu1 ul li {
+		float: none;
+		padding: 10px;
+	}
+	.menu1 ul li a {
+		text-decoration: none;
+		padding: 20px;
+		font-weight: 900;
+		padding: 10px;
+		color: var(--button-color-);
+	}
+	.menu1 ul li a:hover {
+		color: var(--footer-bf-color-);
+		transition: 0.2s all ease;
+	}
+	.logo {
+		grid-column-start: 1;
+		position: relative;
+	}
+	.header-button {
+		justify-self: center;
+		grid-column-start: 2;
+		/* margin-left: 50px; */
+	}
+	.fa-bars {
+		font-size: 30px;
+		cursor: pointer;
+		justify-self: end;
+		margin-right: 20px;
+		position: relative;
+		transition: none;
+	}
+	.fa-times {
+		cursor: pointer;
+		position: fixed;
+		top: 200px;
+		right: 200px;
+		font-size: 32px;
+		visibility: hidden;
+		transition: none;
+	}
+	/* flex slider start*/
+	.slider-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+	.slider-content-button {
+		padding: 10px 20px 10px 20px;
+		border-radius: 20px;
+		font-size: 14px;
+	}
+	.slider-content-heading {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.slider-content-para {
+		font-size: 20px;
+	}
+	/* flex slider end */
+
+	.counter-main-wrap {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.counter-wrapper {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.sub-wrapper {
+		width: 100%;
+	}
+	#section {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.choose-us-video {
+		grid-row-start: 2;
+		margin-left: 5%;
+        margin-right: 2%;
+	}
+	.chose-us-description {
+		margin: 5%;
+	}
+    .practice-area-wrapper {
+		display: block;
+        margin: 10%;
+	}
+	.practice-area-wrapper-bg {
+		background-color: #f2f2f2;
+	}
+	.practice-area-header {
+		text-align: center;
+		margin-top: 15px;
+		font-size: 15px;
+		margin-bottom: 50px;
+		width: 100%;
+		position: relative;
+	}
+	.practice-area-h1 {
+		padding-top: 50px;
+		margin: 15%;
+		font-size: 150%;
+	}
+	.practice-area-para {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		left: 0%;
+		text-align: center;
+		color: gray;
+		font-size: 14px;
+	}
+	.practice-area-demoDiv {
+		background-color: var(--body-bg-color-);
+		height: 300px;
+		width: 100%;
+		margin-top: 150px;
+		position: relative;
+	}
+	.practice-area-demoDiv-h1 {
+		padding-top: 70px;
+	}
+	.practice-area-demoDiv-para {
+		text-align: center;
+		line-height: 30px;
+		margin-top: 30px;
+		padding: 10px;
+	}
+	.practice-area-demoDiv-button {
+		height: 40px;
+		width: 130px;
+		margin-bottom: 100px;
+		position: relative;
+		top: 70px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.counseling-wrapper {
+		grid-gap: 10px;
+		margin: 1%;
+	}
+	.submission-img {
+		margin: 3%;
+	}
+	.from-input-button {
+		height: 50px !important;
+		width: 40% !important;
+		border-radius: 15px;
+	}
+	.testimonial-headding {
+		margin-top: 70px;
+	}
+	.testimonial-para {
+		width: 400px;
+		margin-top: 20px;
+	}
+	.recentPost-wrapper {
+		margin: 2%;
+	}
+	.recent-post img {
+		width: 100%;
+		height: 250px;
+	}
+	.recentPost-wrapper {
+		grid-gap: 10px;
+		height: 1600px;
+	}
+	.comment-info-wrapper {
+		height: 300px;
+	}
+	.recentPost-details-heading {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+	.recentPost-details-para {
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.recentPost-button {
+		padding: 12px 30px;
+		font-size: 14px;
+		margin-left: 20%;
+	}
+	.Attorneys-wrapper {
+		margin: 3%;
+		margin-bottom: 100px;
+	}
+	.aside-para {
+		text-align: center;
+	}
+	.aside-h1 {
+		text-align: center;
+	}
+    .counseling-wrapper{
+        display: block;
+        margin: 10%;
+    }
+    .counseling-div{
+        margin: 10% 0px;
+    }
+    .submission-form{
+        display: block;
+    }
+    .recentPost-wrapper{
+        display: block;
+        height: 100%;
+    }
+    .recent-post{
+        margin: 10% 0px;
+        position: relative;
+    }
+    .recentPost-button{
+        position: absolute;
+        top: 85%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;
+    }
+    .recentPost-header{
+        width: 100%;
+        padding-top: 10%;
+    }
+    .Attorneys-wrapper{
+        display: block;
+    }
+    .Attorneys-profile{
+        margin: 10%;
+    }
+    .Attorneys-wrapper-header{
+        width: 100%;
+    }
+    .footer-wrapper {
+		display: block;
+		padding: 30px;
+        padding-top: 10%;
+	}
+	.Navigation,
+	.Contack-information,
+	.Oppenning-Hours {
+		margin-left: 25px;
+		margin-top: 20px;
+	}
+	.copyRight-section {
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.social-shere-icons {
+		margin-top: 20px;
+	}
+}
+
+/*Device = Most of the Smartphones Mobiles (Portrait)
+Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+	.menu {
+		display: none;
+	}
+	.header {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		width: 100%;
+	}
+	.button-all {
+		display: none;
+	}
+	.fa-bars {
+		grid-column-start: 3;
+		margin-top: 10px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.sub-wrapper {
+		width: 100%;
+	}
+	.menu1 {
+		height: 100vh;
+		width: 100%;
+		left: 0%;
+		z-index: 10;
+		position: fixed;
+		top: 0%;
+		background-color: rgba(0, 0, 0, 0.884);
+	}
+	.menu1 ul {
+		position: absolute;
+		left: 40px;
+		margin-top: 50px;
+		list-style-type: none;
+	}
+	.menu1 ul li {
+		float: none;
+		padding: 10px;
+	}
+	.menu1 ul li a {
+		text-decoration: none;
+		padding: 20px;
+		font-weight: 900;
+		padding: 10px;
+		color: var(--button-color-);
+	}
+	.menu1 ul li a:hover {
+		color: var(--footer-bf-color-);
+		transition: 0.2s all ease;
+	}
+	.fa-times {
+		cursor: pointer;
+		position: fixed;
+		top: 200px;
+		right: 20%;
+		font-size: 32px;
+		visibility: hidden;
+		transition: none;
+	}
+	.empty {
+		height: 100vh;
+		width: 100%;
+		left: 0%;
+		z-index: 10;
+		position: fixed;
+		top: 0%;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.flex-slider {
+		display: none;
+	}
+	.mobile-img {
+		display: block;
+		position: relative;
+	}
+	.header-button {
+		display: none;
+	}
+	.button-all {
+		display: block;
+		position: absolute;
+		z-index: 9;
+	}
+	.button-all-xtra {
+		left: 70%;
+		top: 85%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+		position: absolute;
+		display: block !important;
+	}
+	.button-all-xtra2{
+		left: 15%;
+		top: 85%;
+		position: absolute;
+		display: block !important;
+	}
+	.tbs{
+		position: absolute;
+		/* overflow: hidden; */
+	}
+	.mobile-img-details {
+		display: block;
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		text-align: center;
+		color: var(--white-color-);
+		/* transform: translate(-50%, -50%); */
+
+	}
+	.mobile-img-details h3 {
+		color: #5F6AE7;
+		text-transform: capitalize;
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.button-all {
+		padding: 8px 10px;
+		border-radius: 10px;
+	}
+	.counter-main-wrap {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 350px);
+	}
+	#section {
+		margin: 0;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.choose-us-video {
+		width: 100%;
+		margin-left: 0;
+		grid-row-start: 2;
+		margin-top: 10%;
+	}
+	.aside-para {
+		text-align: center;
+	}
+	.aside-h1 {
+		text-align: center;
+	}
+	.practice-area-wrapper {
+		display: block;
+	}
+	.practice-area-wrapper-bg {
+		background-color: #f2f2f2;
+	}
+	.practice-area-header {
+		text-align: center;
+		margin-top: 15px;
+		font-size: 15px;
+		margin-bottom: 50px;
+		width: 100%;
+		position: relative;
+	}
+	.practice-area-h1 {
+		padding-top: 50px;
+		margin: 15%;
+		font-size: 150%;
+	}
+	.practice-area-para {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		left: 0%;
+		text-align: center;
+		color: gray;
+		font-size: 14px;
+	}
+	.practice-area-demoDiv {
+		background-color: var(--body-bg-color-);
+		height: 280px;
+		width: 100%;
+		margin-top: 150px;
+		position: relative;
+	}
+	.practice-area-demoDiv-h1 {
+		padding-top: 70px;
+	}
+	.practice-area-demoDiv-para {
+		text-align: center;
+		line-height: 30px;
+		margin-top: 30px;
+		padding: 10px;
+	}
+	.practice-area-demoDiv-button {
+		height: 40px;
+		width: 130px;
+		margin-bottom: 100px;
+		position: relative;
+		top: 70px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.counseling-wrapper {
+		display: block;
+	}
+	.counseling-div {
+		margin: 50px 0px;
+	}
+	.counseling-header {
+		width: 80%;
+		margin: 10% auto;
+	}
+	.testimonial-para {
+		width: 300px;
+	}
+	.submission-form {
+		display: block;
+	}
+	.form-headding {
+		font-size: 25px;
+		margin-top: 30px;
+		color: var(--button-color-);
+	}
+	.from-input-button {
+		height: 40px !important;
+		width: 150px !important;
+		margin-top: 20px;
+	}
+	.recentPost-wrapper {
+		display: block;
+		position: relative;
+		height: 100%;
+	}
+	.recent-post {
+		margin: 5%;
+	}
+	.recentPost-details-heading {
+		font-size: 30px;
+	}
+	.comment-info-wrapper {
+		height: 340px;
+		position: relative;
+	}
+	.recentPost-button {
+		position: absolute;
+		top: 85%;
+		left: 33%;
+		transform: translate(-50%, -50%);
+		padding: 10px 20px;
+	}
+	.recentPost-header {
+		width: 100%;
+		padding-top: 30px;
+	}
+	.recentPost-p {
+		font-size: 15px;
+	}
+	.Attorneys-wrapper {
+		display: block;
+	}
+	.Attorneys-wrapper-header {
+		width: 100%;
+		margin-top: 50px;
+	}
+	.Attorneys-profile {
+		margin: 50px 0px;
+	}
+	.footer-wrapper {
+		display: block;
+		padding: 30px;
+	}
+	.Navigation,
+	.Contack-information,
+	.Oppenning-Hours {
+		margin-left: 25px;
+		margin-top: 20px;
+	}
+	.copyRight-section {
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.social-shere-icons {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 320px) {
+	.flex-slider {
+		display: none;
+	}
+	.mobile-img {
+		display: block;
+	}
+}
