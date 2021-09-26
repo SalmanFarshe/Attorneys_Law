@@ -535,7 +535,10 @@ Screen = B/w 481px to 767px*/
 
 /*Device = Most of the Smartphones Mobiles (Portrait)
 Screen = B/w 320px to 479px*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
+	.logo-text{
+		margin-left: 10px;
+	}
 	.menu {
 		display: none;
 	}
