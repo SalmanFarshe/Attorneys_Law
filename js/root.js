@@ -1,5 +1,4 @@
 // root js file
-
 // flex slider start
 $(document).ready(function () {
 	$(".flex-next").html('<i class="fa fa-chevron-right" aria-hidden="true"></i>');
