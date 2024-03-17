@@ -1,957 +1,876 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
 
-		<!---------------------------------------------------------------------------->
-		<!-- all CDN stylesheets goes here -->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<!-- all CDN stylesheets goes here -->
+	<!-- owl carusel css start -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" />
+	<!-- owl carusel css end -->
+	<!-- animate.css start here-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<!-- animate.css end-->
+	<!-- font awesome start -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<!-- font awesome end -->
+	<!-- aos.css start here -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<!-- aos.css end -->
+	<!-- bootstrap.css 4.6.0 start here-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+	<!-- bootstrap.css 4.6.0 end -->
+	<!-- end of cdn -->
+	<!-- all local stylesheets goes here -->
+	<!-- bootstrap.css 4.6.0 start here-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+	<!-- bootstrap.css 4.6.0 end -->
+	<!-- root css start here-->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- root css end -->
+	<!-- responsive.css goes here -->
+	<link rel="stylesheet" href="css/responsive.css" />
+	<!-- responsive.css end -->
+	<!-- all local stylesheets end -->
+</head>
 
-		<!-- owl carusel css start -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
-		/>
-		<!-- owl carusel css end -->
-
-		<!-- animate.css start here-->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-		/>
-		<!-- animate.css end-->
-
-		<!-- font awesome start -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-		/>
-		<!-- font awesome end -->
-
-		<!-- aos.css start here -->
-		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-		<!-- aos.css end -->
-
-		<!-- bootstrap.css 4.6.0 start here-->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-		/>
-		<!-- bootstrap.css 4.6.0 end -->
-
-		<!-- bootstrap.css 5.0 start here-->
-		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"> -->
-		<!-- bootstrap.css 5.0 end -->
-
-		<!-- end of cdn -->
-		<!---------------------------------------------------------------------------->
-
-		<!---------------------------------------------------------------------------->
-		<!-- all local stylesheets goes here -->
-
-		<!-- bootstrap.css 4.6.0 start here-->
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
-		<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
-		<!-- bootstrap.css 4.6.0 end -->
-
-		<!-- root css start here-->
-		<link rel="stylesheet" href="css/style.css" />
-		<!-- root css end -->
-
-		<!-- responsive.css goes here -->
-		<link rel="stylesheet" href="css/responsive.css" />
-		<!-- responsive.css end -->
-
-		<!-- all local stylesheets end -->
-		<!---------------------------------------------------------------------------->
-	</head>
-	<body onload="webPreloader()">
-		<!-- 
-			<div class="main-wrapper">
-				<div class="sub-wrapper">
-
+<body onload="webPreloader()">
+	<!-- header section start here -->
+	<div class="preloader">
+		<img src="img/infinity-loader.gif" alt="" />
+	</div>
+	<div id="sticky" class="main-wrapper">
+		<div class="sub-wrapper">
+			<div class="header">
+				<div class="logo">
+					<h2 class="logo-text">TBSquad</h2>
 				</div>
-			</div> 
-		-->
-
-		<!-- header section start here -->
-		<div class="preloader">
-			<img src="img/infinity-loader.gif" alt="">
-		</div>
-		<div id="sticky" class="main-wrapper">
-			<div class="sub-wrapper">
-				<div class="header">
-					<div class="logo">
-						<h2 class="logo-text">TBSquad</h2>
-					</div>
-
-					<div class="menu">
-						<div class="empty"></div>
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Practice Areas</a></li>
-							<li><a href="#">Won Case</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Abouth</a></li>
-							<li><a href="#">Contact</a></li>
-							<i class="fa fa-times" style="z-index: 11"></i>
-						</ul>
-					</div>
-
-					<div class="header-button">
-						<button class="button-all button-all-xtra">Login</button>
-						<button class="button-all button-all-xtra2">Sign Up</button>
-					</div>
-					<i class="fa fa-bars" style="z-index: 11"></i>
+				<div class="menu">
+					<div class="empty"></div>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Practice Areas</a></li>
+						<li><a href="#">Won Case</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Abouth</a></li>
+						<li><a href="#">Contact</a></li>
+						<i class="fa fa-times" style="z-index: 11"></i>
+					</ul>
 				</div>
+				<div class="header-button">
+					<button class="button-all button-all-xtra">Login</button>
+					<button class="button-all button-all-xtra2">Sign Up</button>
+				</div>
+				<i class="fa fa-bars" style="z-index: 11"></i>
 			</div>
 		</div>
-		<!-- header end -->
-
-		<!-- flex slider start -->
-		<div class="mobile-img-details">
-			<div class="mobile-img-button">
-				<button class="button-all button-all-xtra d-none">Login</button>
-				<button class="button-all button-all-xtra2 d-none">Sign Up</button>
-			</div>
-			<img src="img/TBS.png" class="mobile-img" class="tbs" alt="" />
-			<h3>please sign up or log in</h3>
+	</div>
+	<!-- header end -->
+	<!-- flex slider start -->
+	<div class="mobile-img-details">
+		<div class="mobile-img-button">
+			<button class="button-all button-all-xtra d-none">Login</button>
+			<button class="button-all button-all-xtra2 d-none">Sign Up</button>
 		</div>
-		<div class="flex-slider  animate__animated animate__fadeIn">
-			<ul class="slides">
-				<li>
-					<div class="slide-image" data-flex-start="center center ">
-						<img src="img/img_bg_1.jpg" class="img-height" alt="" />
-						<div class="slider-content">
-							<h1 class="slider-content-heading">Expert Legal Solutions</h1>
-							<p class="slider-content-para">
-								Free html5 templates Made by
-								<a class="slider-link" href="#">freehtml5.co</a>
-							</p>
-							<button class="slider-content-button">Make An Appointment</button>
-						</div>
+		<img src="img/TBS.png" class="mobile-img" class="tbs" alt="" />
+	</div>
+	<div class="flex-slider animate__animated animate__fadeIn">
+		<ul class="slides">
+			<li>
+				<div class="slide-image" data-flex-start="center center ">
+					<img src="img/img_bg_1.jpg" class="img-height" alt="" />
+					<div class="slider-content">
+						<h1 class="slider-content-heading">Expert Legal Solutions</h1>
+						<p class="slider-content-para">
+							Free html5 templates Made by
+							<a class="slider-link" href="#">freehtml5.co</a>
+						</p>
+						<button class="slider-content-button">Make An Appointment</button>
 					</div>
-				</li>
-				<li>
-					<div class="slide-image" data-flex-start="center center ">
-						<img src="img/img_bg_2.jpg" class="img-height" alt="" />
-						<div class="slider-content">
-							<h1 class="slider-content-heading">Business Law</h1>
-							<p class="slider-content-para">
-								Free html5 templates Made by
-								<a class="slider-link" href="#">freehtml5.co</a>
-							</p>
-							<button class="slider-content-button">Make An Appointment</button>
-						</div>
+				</div>
+			</li>
+			<li>
+				<div class="slide-image" data-flex-start="center center ">
+					<img src="img/img_bg_2.jpg" class="img-height" alt="" />
+					<div class="slider-content">
+						<h1 class="slider-content-heading">Business Law</h1>
+						<p class="slider-content-para">
+							Free html5 templates Made by
+							<a class="slider-link" href="#">freehtml5.co</a>
+						</p>
+						<button class="slider-content-button">Make An Appointment</button>
 					</div>
-				</li>
-				<li>
-					<div class="slide-image" data-flex-start="center center ">
-						<img src="img/img_bg_3.jpg" class="img-height" alt="" />
-						<div class="slider-content">
-							<h1 class="slider-content-heading">
-								Defend Your Constitutional Right with Legal Help
-							</h1>
-							<p class="slider-content-para">
-								Free html5 templates Made by
-								<a class="slider-link" href="#">freehtml5.co</a>
-							</p>
-							<button class="slider-content-button">Make An Appointment</button>
-						</div>
+				</div>
+			</li>
+			<li>
+				<div class="slide-image" data-flex-start="center center ">
+					<img src="img/img_bg_3.jpg" class="img-height" alt="" />
+					<div class="slider-content">
+						<h1 class="slider-content-heading">
+							Defend Your Constitutional Right with Legal Help
+						</h1>
+						<p class="slider-content-para">
+							Free html5 templates Made by
+							<a class="slider-link" href="#">freehtml5.co</a>
+						</p>
+						<button class="slider-content-button">Make An Appointment</button>
 					</div>
-				</li>
-			</ul>
-		</div>
-		<!-- flex slider start -->
-
-		<!-- counter start -->
-		<div class="main-wrapper counter-bg">
-			<div class="sub-wrapper">
-				<div class="counter-main-wrap">
-					<div class="counter-wrapper animate__animated animate__bounceInLeft wow" data-aos="fade-right">
-						<div class="counter-icon">
-							<i class="fa fa-user counter-icon-style"></i>
-						</div>
-						<span class="count-number-1">0</span>
-						<div class="counter-text lead">
-							<p>SATISFIED CLIENTS</p>
-						</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- flex slider start -->
+	<!-- counter start -->
+	<div class="main-wrapper counter-bg">
+		<div class="sub-wrapper">
+			<div class="counter-main-wrap">
+				<div class="counter-wrapper animate__animated animate__bounceInLeft wow" data-aos="fade-right">
+					<div class="counter-icon">
+						<i class="fa fa-user counter-icon-style"></i>
 					</div>
-					<div class="counter-wrapper animate__animated animate__bounceInLeft wow" data-aos="fade-right">
-						<div class="counter-icon">
-							<i class="fa fa-comments counter-icon-style"></i>
-						</div>
-						<span class="count-number-2">0</span>
-						<div class="dounter-text lead">
-							<p>CASES WON</p>
-						</div>
+					<span class="count-number-1">0</span>
+					<div class="counter-text lead">
+						<p>SATISFIED CLIENTS</p>
 					</div>
-					<div class="counter-wrapper animate__animated animate__bounceInRight wow" data-aos="fade-left">
-						<div class="counter-icon">
-							<i class="fa fa-trophy counter-icon-style"></i>
-						</div>
-						<span class="count-number-3">0</span>
-						<div class="dounter-text lead">
-							<p>AWARDS WON</p>
-						</div>
+				</div>
+				<div class="counter-wrapper animate__animated animate__bounceInLeft wow" data-aos="fade-right">
+					<div class="counter-icon">
+						<i class="fa fa-comments counter-icon-style"></i>
 					</div>
-					<div class="counter-wrapper mbb animate__animated animate__bounceInRight wow" data-aos="fade-left">
-						<div class="counter-icon">
-							<i class="fa fa-users counter-icon-style"></i>
-						</div>
-						<span class="count-number-4">0</span>
-						<div class="dounter-text lead">
-							<p>LAWYERS</p>
-						</div>
+					<span class="count-number-2">0</span>
+					<div class="dounter-text lead">
+						<p>CASES WON</p>
+					</div>
+				</div>
+				<div class="counter-wrapper animate__animated animate__bounceInRight wow" data-aos="fade-left">
+					<div class="counter-icon">
+						<i class="fa fa-trophy counter-icon-style"></i>
+					</div>
+					<span class="count-number-3">0</span>
+					<div class="dounter-text lead">
+						<p>AWARDS WON</p>
+					</div>
+				</div>
+				<div class="counter-wrapper mbb animate__animated animate__bounceInRight wow" data-aos="fade-left">
+					<div class="counter-icon">
+						<i class="fa fa-users counter-icon-style"></i>
+					</div>
+					<span class="count-number-4">0</span>
+					<div class="dounter-text lead">
+						<p>LAWYERS</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- counter end -->
-
-		<!-- Why Choose Us? section start -->
-		<div class="main-wrapperr">
-			<div class="sub-wrapperr">
-				<section id="section">
-					<div class="choose-us-video animate__animated animate__pulse wow">
-						<iframe
-							width="100%"
-							height="315"
-							src="https://www.youtube.com/embed/75Xu8N3uTbA"
-							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen
-						></iframe>
-					</div>
-					<div class="chose-us-description" data-aos="fade-down">
-						<aside>
-							<h1 class="aside-h1">Why Choose Us?</h1>
-							<p class="aside-para lead">
-								Far far away, behind the word mountains, far from the countries Vokalia
-								and Consonantia, there live the blind texts far from the countries
-								Vokalia and Consonantia, there live the blind texts.
-							</p>
-							<div class="aside-progresBar">
-								<div class="progress mb-3" style="height: 20px">
-									<div
-										class="progress-bar progress-bar-striped progress-bar-animated"
-										style="width: 50%; background-color: #577eaa"
-									>
-										Adoption Law 50%
-									</div>
-								</div>
-								<div class="progress mb-3" style="height: 20px">
-									<div
-										class="progress-bar progress-bar-striped progress-bar-animated"
-										style="width: 80%; background-color: #577eaa"
-									>
-										Family Law 80%
-									</div>
-								</div>
-								<div class="progress mb-3" style="height: 20px">
-									<div
-										class="progress-bar progress-bar-striped progress-bar-animated"
-										style="width: 70%; background-color: #577eaa"
-									>
-										Real Estate Law 70%
-									</div>
-								</div>
-								<div class="progress mb-3" style="height: 20px">
-									<div
-										class="progress-bar progress-bar-striped progress-bar-animated"
-										style="width: 40%; background-color: #577eaa"
-									>
-										Personal Injury Law 40%
-									</div>
+	</div>
+	<!-- counter end -->
+	<!-- Why Choose Us? section start -->
+	<div class="main-wrapperr">
+		<div class="sub-wrapperr">
+			<section id="section">
+				<div class="choose-us-video animate__animated animate__pulse wow">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/75Xu8N3uTbA"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<div class="chose-us-description" data-aos="fade-down">
+					<aside>
+						<h1 class="aside-h1">Why Choose Us?</h1>
+						<p class="aside-para lead">
+							Far far away, behind the word mountains, far from the countries Vokalia
+							and Consonantia, there live the blind texts far from the countries
+							Vokalia and Consonantia, there live the blind texts.
+						</p>
+						<div class="aside-progresBar">
+							<div class="progress mb-3" style="height: 20px">
+								<div class="progress-bar progress-bar-striped progress-bar-animated"
+									style="width: 50%; background-color: #577eaa">
+									Adoption Law 50%
 								</div>
 							</div>
-						</aside>
-					</div>
-				</section>
-			</div>
-		</div>
-		<!-- Why Choose Us? section end -->
-
-		<!-- practice area start -->
-		<div class="main-wrapper practice-area-wrapper-bg">
-			<div class="sub-wrapper">
-				<div class="practice-area-wrapper">
-					<div class="practice-area-header animate__animated animate__flash wow" data-aos="zoom-out-up">
-						<h1 class="practice-area-h1">Our Legal Practice Area</h1>
-						<p class="practice-area-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-1" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
+							<div class="progress mb-3" style="height: 20px">
+								<div class="progress-bar progress-bar-striped progress-bar-animated"
+									style="width: 80%; background-color: #577eaa">
+									Family Law 80%
+								</div>
+							</div>
+							<div class="progress mb-3" style="height: 20px">
+								<div class="progress-bar progress-bar-striped progress-bar-animated"
+									style="width: 70%; background-color: #577eaa">
+									Real Estate Law 70%
+								</div>
+							</div>
+							<div class="progress mb-3" style="height: 20px">
+								<div class="progress-bar progress-bar-striped progress-bar-animated"
+									style="width: 40%; background-color: #577eaa">
+									Personal Injury Law 40%
+								</div>
+							</div>
 						</div>
-						<h1 class="practice-area-demoDiv-h1">Real Estate Law</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-2" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Insurance Law</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-3" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Business Law</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-4" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Personal Injury</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-5" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Medical Neglegence</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-6" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Criminal Defense</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-7" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Criminal Case</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-8" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Business Law</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="practice-area-demoDiv animate__animated animate__fadeInUp wow grid-no-9" data-aos="fade-down">
-						<div class="icon">
-							<i class="fa fa-user"></i>
-						</div>
-						<h1 class="practice-area-demoDiv-h1">Legal Consultation</h1>
-						<p class="practice-area-demoDiv-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<button class="practice-area-demoDiv-button animate__animated animate__bounceIn wow" data-aos="fade-down">View More</button>
+					</aside>
 				</div>
-			</div>
+			</section>
 		</div>
-		<!-- practice area end -->
-
-		<!-- Counseling part start -->
-		<div class="main-wrapper">
-			<div class="sub-wrapper">
-				<div class="counseling-wrapper">
-					<div class="counseling-header animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<h1 class="counseling-h1">Counseling</h1>
-						<p class="counseling-para">
-							Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
-							alias autem provident. Odit ab aliquam dolor eius.
-						</p>
-					</div>
-					<div class="counseling-div grid-no-1  animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<div class="overlay-div"></div>
-						<img src="img/Salman-Copy.jpg" alt="" />
-						<h3 class="counselling-img-h3">Business</h3>
-						<p class="counselling-img-p">CEO:TBSquad</p>
-					</div>
-					<div class="counseling-div grid-no-2 animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<div class="overlay-div"></div>
-						<img src="img/Sabbir.JPG" alt="" />
-						<h3 class="counselling-img-h3 rspnsive-style-h3">Legal Advice</h3>
-						<p class="counselling-img-p">CEO:TBSquad</p>
-					</div>
-					<div class="counseling-div grid-no-3 animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<div class="overlay-div"></div>
-						<img src="img/Tarek (2).jpg" alt="" />
-						<h3 class="counselling-img-h3">Read Bible</h3>
-						<p class="counselling-img-p">CEO:TBSquad</p>
-					</div>
-					<div class="counseling-div grid-no-4 animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<div class="overlay-div"></div>
-						<img src="img/Ferdous.jpg" alt="" />
-						<h3 class="counselling-img-h3">Affidavit</h3>
-						<p class="counselling-img-p">CEO:TBSquad</p>
-					</div>
-					<div class="counseling-div grid-no-5 animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<div class="overlay-div"></div>
-						<img src="img/Bashar.jpg" alt="" />
-						<h3 class="counselling-img-h3">Sports</h3>
-						<p class="counselling-img-p">CEO:TBSquad</p>
-					</div>
-					<div class="counseling-div grid-no-6 animate__animated animate__zoomIn wow" data-aos="slide-up">
-						<div class="overlay-div"></div>
-						<img src="img/Forid.jpg" alt="" />
-						<h3 class="counselling-img-h3">Photography</h3>
-						<p class="counselling-img-p">CEO:TBSquad</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Counseling part end -->
-
-		<!-- Testimonials part start -->
-		<div
-			class="main-wrapper"
-			style="background-color: #f2f2f2; margin-top: 100px; margin-bottom: 100px"
-		>
-			<div class="sub-wrapper">
-				<h1 class="testimonial-header">Testimonials</h1>
-				<div class="testimonial owl-carousel">
-					<div class="testimonial-wrap">
-						<img src="img/Salman.jpg" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Salman Farshe</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-					<div class="testimonial-wrap">
-						<img src="img/Sabbir.JPG" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Muhammad Sabbir</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-					<div class="testimonial-wrap">
-						<img src="img/Tarek (2).jpg" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Md. Tareque Ahmed</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-					<div class="testimonial-wrap">
-						<img src="img/Ferdous.jpg" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Md. Ferdous Reja</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-					<div class="testimonial-wrap">
-						<img src="img/Forid.jpg" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Md. Nur Hossain</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-					<div class="testimonial-wrap">
-						<img src="img/Bashar.jpg" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Md. Habibur Bashar</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-					<div class="testimonial-wrap">
-						<img src="img/Rasel.jpg" alt="" class="testimonials-img" />
-						<div class="info-wrap">
-							<h4 class="testimonial-headding">Sk Rasel Shikder</h4>
-							<p class="testimonial-para">
-								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-								praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
-								Neque.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Testimonials part end-->
-
-		<!-- submission from start -->
-		<div class="main-wrapper">
-			<div class="sub-wrapperr">
-				<div class="submission-form">
-					<div class="submission-img animate__animated animate__slideInLeft wow" data-aos="slide-right">
-						<img src="img/TBS.png" alt="" class="submission-img-style" />
-					</div>
-					<form id="form-id" class="animate__animated animate__slideInRight wow" action="#" data-aos="slide-left">
-						<h1 class="form-headding">Free Leagal Consulationn</h1>
-						<input
-							type="text"
-							class="from-input-first-name"
-							placeholder="Your Firstname"
-						/>
-						<input
-							type="text"
-							class="from-input-last-name"
-							placeholder="Your Lastname"
-						/>
-						<input
-							type="text"
-							class="from-input-email"
-							placeholder="Your Email address"
-						/>
-						<input
-							type="text"
-							class="from-input-subject"
-							placeholder="Your subject of this messege"
-						/>
-						<textarea
-							name="messege"
-							id="from-input-textarea"
-							cols=""
-							style="width: 100%"
-							rows=""
-							placeholder="Write your messege"
-						></textarea>
-						<input type="button" class="from-input-button" value="Send messege" />
-					</form>
-				</div>
-			</div>
-		</div>
-		<!-- submission from end -->
-
-		<!-- recent post section start -->
-		<div class="main-wrapper recentPost-bg">
-			<div class="sub-wrapper">
-				<div class="recentPost-wrapper">
-					<div class="recentPost-header animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<h3 class="recentPost-h3">Recent Post</h3>
-						<p class="recentPost-p">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-							alias. Quae aut mollitia libero eaque illum amet sit. Fugiat, sequi.
-						</p>
-					</div>
-
-					<div class="recent-post grid-no-1 animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<img src="img/TBS.png" alt="" class="" />
-						<div class="comment-info-wrapper">
-							<div class="comment-info">
-								<span class="comment-date">Nov.5th</span>
-								<span class="comment-ammount">21</span>
-							</div>
-							<div class="recentPost-details">
-								<h1 class="recentPost-details-heading">Legal Conculation</h1>
-								<p class="recentPost-details-para">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
-									eaque quas quia delectus dolore sed quod laborum iure natus.
-								</p>
-								<button class="recentPost-button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="recent-post grid-no-2 animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<img src="img/TBS.png" alt="" class="" />
-						<div class="comment-info-wrapper">
-							<div class="comment-info">
-								<span class="comment-date">Nov.5th</span>
-								<span class="comment-ammount">21</span>
-							</div>
-							<div class="recentPost-details">
-								<h1 class="recentPost-details-heading">Legal Conculation</h1>
-								<p class="recentPost-details-para">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
-									eaque quas quia delectus dolore sed quod laborum iure natus.
-								</p>
-								<button class="recentPost-button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="recent-post grid-no-3 animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<img src="img/TBS.png" alt="" class="" />
-						<div class="comment-info-wrapper">
-							<div class="comment-info">
-								<span class="comment-date">Nov.5th</span>
-								<span class="comment-ammount">21</span>
-							</div>
-							<div class="recentPost-details">
-								<h1 class="recentPost-details-heading">Legal Conculation</h1>
-								<p class="recentPost-details-para">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
-									eaque quas quia delectus dolore sed quod laborum iure natus.
-								</p>
-								<button class="recentPost-button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="recent-post grid-no-4 animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<img src="img/TBS.png" alt="" class="" />
-						<div class="comment-info-wrapper">
-							<div class="comment-info">
-								<span class="comment-date">Nov.5th</span>
-								<span class="comment-ammount">21</span>
-							</div>
-							<div class="recentPost-details">
-								<h1 class="recentPost-details-heading">Legal Conculation</h1>
-								<p class="recentPost-details-para">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
-									eaque quas quia delectus dolore sed quod laborum iure natus.
-								</p>
-								<button class="recentPost-button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="recent-post grid-no-5 animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<img src="img/TBS.png" alt="" class="" />
-						<div class="comment-info-wrapper">
-							<div class="comment-info">
-								<span class="comment-date">Nov.5th</span>
-								<span class="comment-ammount">21</span>
-							</div>
-							<div class="recentPost-details">
-								<h1 class="recentPost-details-heading">Legal Conculation</h1>
-								<p class="recentPost-details-para">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
-									eaque quas quia delectus dolore sed quod laborum iure natus.
-								</p>
-								<button class="recentPost-button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="recent-post grid-no-6 animate__animated animate__fadeIn wow" data-aos="fade-up">
-						<img src="img/TBS.png" alt="" class="" />
-						<div class="comment-info-wrapper">
-							<div class="comment-info">
-								<span class="comment-date">Nov.5th</span>
-								<span class="comment-ammount">21</span>
-							</div>
-							<div class="recentPost-details">
-								<h1 class="recentPost-details-heading">Legal Conculation</h1>
-								<p class="recentPost-details-para">
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
-									eaque quas quia delectus dolore sed quod laborum iure natus.
-								</p>
-								<button class="recentPost-button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<br /><br /><br />
-				</div>
-			</div>
-		</div>
-		<!-- recent post end -->
-
-		<!-- Attorneys section start -->
-		<div class="main-wrapper">
-			<div class="sub-wrapper">
-				<div class="Attorneys-wrapper">
-					<div class="Attorneys-wrapper-header animate__animated animate__bounceIn wow">
-						<h1 class="">Our Attorneys</h1>
-						<p class="">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem saepe
-							optio provident, officia consequatur, nostrum voluptates quibusdam
-							recusandae dolor esse temporibus incidunt hic minus ipsam non voluptatem
-							quo. Magni, non?
-						</p>
-					</div>
-
-					<div class="Attorneys-profile animate__animated animate__bounceIn wow" data-aos="slide-up">
-						<img src="img/Salman.jpg" alt="" class="Attorneys-img" />
-						<h1 class="Attorneys-img-h1">Salman Farshe</h1>
-						<p>counsiler</p>
-						<p class="Attorneys-img-p">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, Lorem
-							ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veritatis?
-						</p>
-						<div class="social-shere-icons">
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-facebook-square"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-twitter"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-dribbble"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-instagram"></i
-							></a>
-						</div>
-					</div>
-					<div class="Attorneys-profile animate__animated animate__bounceIn wow" data-aos="slide-up">
-						<img src="img/Sabbir.JPG" alt="" class="Attorneys-img" />
-						<h1 class="Attorneys-img-h1">Muhammad Sabbir</h1>
-						<p>designer</p>
-						<p class="Attorneys-img-p">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, Lorem
-							ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veritatis?
-						</p>
-						<div class="social-shere-icons">
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-facebook-square"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-twitter"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-dribbble"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-instagram"></i
-							></a>
-						</div>
-					</div>
-					<div class="Attorneys-profile animate__animated animate__bounceIn wow" data-aos="slide-up">
-						<img src="img/Tarek (2).jpg" alt="" class="Attorneys-img" />
-						<h1 class="Attorneys-img-h1">Tareque Ahmed</h1>
-						<p>devloper</p>
-						<p class="Attorneys-img-p">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, Lorem
-							ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veritatis?
-						</p>
-						<div class="social-shere-icons">
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-facebook-square"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-twitter"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-dribbble"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon fa fa-instagram"></i
-							></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Attorneys section end -->
-
-		<!-- Legal Advice section start -->
-		<div class="Legal-Advice-main-wrapper">
-			<div class="sub-wrapper">
-				<div class="Legal-Advice-wrapper">
-					<h1 class="Legal-Advice-wrapper-h1">Legal Advice</h1>
-					<p class="">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem unde
-						maiores adipisci ullam consequuntur minus corrupti voluptas excepturi.
-						Aliquid, expedita. Laboriosam et possimus aspernatur dolore rerum voluptas
-						tenetur consequuntur quasi.
+	</div>
+	<!-- Why Choose Us? section end -->
+	<!-- practice area start -->
+	<div class="main-wrapper practice-area-wrapper-bg">
+		<div class="sub-wrapper">
+			<div class="practice-area-wrapper">
+				<div class="practice-area-header animate__animated animate__flash wow" data-aos="zoom-out-up">
+					<h1 class="practice-area-h1">Our Legal Practice Area</h1>
+					<p class="practice-area-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
 					</p>
-					<button class="Legal-Advice-btn">Consultation</button>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-1
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Real Estate Law</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-2
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Insurance Law</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-3
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Business Law</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-4
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Personal Injury</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-5
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Medical Neglegence</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-6
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Criminal Defense</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-7
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Criminal Case</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-8
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Business Law</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="
+							practice-area-demoDiv
+							animate__animated animate__fadeInUp
+							wow
+							grid-no-9
+						" data-aos="fade-down">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h1 class="practice-area-demoDiv-h1">Legal Consultation</h1>
+					<p class="practice-area-demoDiv-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<button class="
+							practice-area-demoDiv-button
+							animate__animated animate__bounceIn
+							wow
+						" data-aos="fade-down">
+					View More
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- practice area end -->
+	<!-- Counseling part start -->
+	<div class="main-wrapper">
+		<div class="sub-wrapper">
+			<div class="counseling-wrapper">
+				<div class="counseling-header animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<h1 class="counseling-h1">Counseling</h1>
+					<p class="counseling-para">
+						Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus
+						alias autem provident. Odit ab aliquam dolor eius.
+					</p>
+				</div>
+				<div class="counseling-div grid-no-1 animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<div class="overlay-div"></div>
+					<img src="img/Salman-Copy.jpg" alt="" />
+					<h3 class="counselling-img-h3">Business</h3>
+					<p class="counselling-img-p">CEO:TBSquad</p>
+				</div>
+				<div class="counseling-div grid-no-2 animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<div class="overlay-div"></div>
+					<img src="img/Sabbir.JPG" alt="" />
+					<h3 class="counselling-img-h3 rspnsive-style-h3">Legal Advice</h3>
+					<p class="counselling-img-p">CEO:TBSquad</p>
+				</div>
+				<div class="counseling-div grid-no-3 animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<div class="overlay-div"></div>
+					<img src="img/Tarek (2).jpg" alt="" />
+					<h3 class="counselling-img-h3">Read Bible</h3>
+					<p class="counselling-img-p">CEO:TBSquad</p>
+				</div>
+				<div class="counseling-div grid-no-4 animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<div class="overlay-div"></div>
+					<img src="img/Ferdous.jpg" alt="" />
+					<h3 class="counselling-img-h3">Affidavit</h3>
+					<p class="counselling-img-p">CEO:TBSquad</p>
+				</div>
+				<div class="counseling-div grid-no-5 animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<div class="overlay-div"></div>
+					<img src="img/Bashar.jpg" alt="" />
+					<h3 class="counselling-img-h3">Sports</h3>
+					<p class="counselling-img-p">CEO:TBSquad</p>
+				</div>
+				<div class="counseling-div grid-no-6 animate__animated animate__zoomIn wow" data-aos="slide-up">
+					<div class="overlay-div"></div>
+					<img src="img/Forid.jpg" alt="" />
+					<h3 class="counselling-img-h3">Photography</h3>
+					<p class="counselling-img-p">CEO:TBSquad</p>
 				</div>
 			</div>
 		</div>
-		<!-- Legal Advice section end -->
-
-		<!-- footer section start -->
-		<div class="main-wrapper-footer">
-			<div class="sub-wrapper">
-				<footer class="footer-wrapper">
-					<div class="footer-left-div" style="margin-left: 25px">
-						<h3 class="">Attorney's Law</h3>
-						<p class="footer-wrapper-p">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-							necessitatibus deleniti ipsum labore doloremque,
+	</div>
+	<!-- Counseling part end -->
+	<!-- Testimonials part start -->
+	<div class="main-wrapper" style="background-color: #f2f2f2; margin-top: 100px; margin-bottom: 100px">
+		<div class="sub-wrapper">
+			<h1 class="testimonial-header">Testimonials</h1>
+			<div class="testimonial owl-carousel">
+				<div class="testimonial-wrap">
+					<img src="img/Salman.jpg" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Salman Farshe</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
 						</p>
 					</div>
-					<div class="Navigation">
-						<h3 class="">Navigation</h3>
-						<a href="#" class="">Home</a>
-						<a href="#" class="">Practice Areas</a>
-						<a href="#" class="">Won Cases</a>
-						<a href="#" class="">Blog</a>
-						<a href="#" class="">Abouth Us</a>
+				</div>
+				<div class="testimonial-wrap">
+					<img src="img/Sabbir.JPG" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Muhammad Sabbir</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
+						</p>
 					</div>
-					<div class="Contack-information">
-						<h3 class="">Contack information</h3>
-						<span class="Contack-information-p">198 West 21th Street,</span>
-						<span class="Contack-information-p">Suite 721 New York NY 10016</span>
-						<a href="#" class="Contack-information-p">+ 1235 2355 98</a>
-						<a href="#" class="Contack-information-p">info@yoursite.com</a>
-						<a href="#" class="Contack-information-p">gettemplates.co</a>
+				</div>
+				<div class="testimonial-wrap">
+					<img src="img/Tarek (2).jpg" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Md. Tareque Ahmed</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
+						</p>
 					</div>
-					<div class="Oppenning-Hours">
-						<h3 class="">Oppenning Hours</h3>
-						<span class="Oppenning-Hours-p">Mon - Thu: 9:00 - 21 00</span>
-						<span class="Oppenning-Hours-p">Fri 8:00 - 21 00</span>
-						<span class="Oppenning-Hours-p">Sat 9:30 - 15: 00</span>
+				</div>
+				<div class="testimonial-wrap">
+					<img src="img/Ferdous.jpg" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Md. Ferdous Reja</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
+						</p>
 					</div>
-
-					<div class="copyRight-section">
-						<span class="">© 2016 Free HTML5. All Rights Reserved.</span>
-						<span class="">Designed by FreeHTML5.co Demo Images: Unsplash</span>
-						<span class=""
-							>Here I designe and modied only for my practice purpose</span
-						>
-						<div class="social-shere-icons">
-							<a href="" class="social-icon-link"
-								><i class="social-icon-main fa fa-facebook-square"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon-main fa fa-twitter"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon-main fa fa-dribbble"></i
-							></a>
-							<a href="" class="social-icon-link"
-								><i class="social-icon-main fa fa-instagram"></i
-							></a>
-						</div>
+				</div>
+				<div class="testimonial-wrap">
+					<img src="img/Forid.jpg" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Md. Nur Hossain</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
+						</p>
 					</div>
-				</footer>
+				</div>
+				<div class="testimonial-wrap">
+					<img src="img/Bashar.jpg" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Md. Habibur Bashar</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
+						</p>
+					</div>
+				</div>
+				<div class="testimonial-wrap">
+					<img src="img/Rasel.jpg" alt="" class="testimonials-img" />
+					<div class="info-wrap">
+						<h4 class="testimonial-headding">Sk Rasel Shikder</h4>
+						<p class="testimonial-para">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
+							praesentium magni nulla sit quos veniam tempore ipsa soluta eveniet?
+							Neque.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<!-- footer section end -->
+	</div>
+	<!-- Testimonials part end-->
+	<!-- submission from start -->
+	<div class="main-wrapper">
+		<div class="sub-wrapperr">
+			<div class="submission-form">
+				<div class="submission-img animate__animated animate__slideInLeft wow" data-aos="slide-right">
+					<img src="img/TBS.png" alt="" class="submission-img-style" />
+				</div>
+				<form id="form-id" class="animate__animated animate__slideInRight wow" action="#" data-aos="slide-left">
+					<h1 class="form-headding">Free Leagal Consulationn</h1>
+					<input type="text" class="from-input-first-name" placeholder="Your Firstname" />
+					<input type="text" class="from-input-last-name" placeholder="Your Lastname" />
+					<input type="text" class="from-input-email" placeholder="Your Email address" />
+					<input type="text" class="from-input-subject" placeholder="Your subject of this messege" />
+					<textarea name="messege" id="from-input-textarea" cols="" style="width: 100%" rows=""
+						placeholder="Write your messege"></textarea>
+					<input type="button" class="from-input-button" value="Send messege" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- submission from end -->
+	<!-- recent post section start -->
+	<div class="main-wrapper recentPost-bg">
+		<div class="sub-wrapper">
+			<div class="recentPost-wrapper">
+				<div class="recentPost-header animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<h3 class="recentPost-h3">Recent Post</h3>
+					<p class="recentPost-p">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+						alias. Quae aut mollitia libero eaque illum amet sit. Fugiat, sequi.
+					</p>
+				</div>
+				<div class="recent-post grid-no-1 animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<img src="img/TBS.png" alt="" class="" />
+					<div class="comment-info-wrapper">
+						<div class="comment-info">
+							<span class="comment-date">Nov.5th</span>
+							<span class="comment-ammount">21</span>
+						</div>
+						<div class="recentPost-details">
+							<h1 class="recentPost-details-heading">Legal Conculation</h1>
+							<p class="recentPost-details-para">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
+								eaque quas quia delectus dolore sed quod laborum iure natus.
+							</p>
+							<button class="recentPost-button">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="recent-post grid-no-2 animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<img src="img/TBS.png" alt="" class="" />
+					<div class="comment-info-wrapper">
+						<div class="comment-info">
+							<span class="comment-date">Nov.5th</span>
+							<span class="comment-ammount">21</span>
+						</div>
+						<div class="recentPost-details">
+							<h1 class="recentPost-details-heading">Legal Conculation</h1>
+							<p class="recentPost-details-para">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
+								eaque quas quia delectus dolore sed quod laborum iure natus.
+							</p>
+							<button class="recentPost-button">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="recent-post grid-no-3 animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<img src="img/TBS.png" alt="" class="" />
+					<div class="comment-info-wrapper">
+						<div class="comment-info">
+							<span class="comment-date">Nov.5th</span>
+							<span class="comment-ammount">21</span>
+						</div>
+						<div class="recentPost-details">
+							<h1 class="recentPost-details-heading">Legal Conculation</h1>
+							<p class="recentPost-details-para">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
+								eaque quas quia delectus dolore sed quod laborum iure natus.
+							</p>
+							<button class="recentPost-button">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="recent-post grid-no-4 animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<img src="img/TBS.png" alt="" class="" />
+					<div class="comment-info-wrapper">
+						<div class="comment-info">
+							<span class="comment-date">Nov.5th</span>
+							<span class="comment-ammount">21</span>
+						</div>
+						<div class="recentPost-details">
+							<h1 class="recentPost-details-heading">Legal Conculation</h1>
+							<p class="recentPost-details-para">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
+								eaque quas quia delectus dolore sed quod laborum iure natus.
+							</p>
+							<button class="recentPost-button">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="recent-post grid-no-5 animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<img src="img/TBS.png" alt="" class="" />
+					<div class="comment-info-wrapper">
+						<div class="comment-info">
+							<span class="comment-date">Nov.5th</span>
+							<span class="comment-ammount">21</span>
+						</div>
+						<div class="recentPost-details">
+							<h1 class="recentPost-details-heading">Legal Conculation</h1>
+							<p class="recentPost-details-para">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
+								eaque quas quia delectus dolore sed quod laborum iure natus.
+							</p>
+							<button class="recentPost-button">Read More</button>
+						</div>
+					</div>
+				</div>
+				<div class="recent-post grid-no-6 animate__animated animate__fadeIn wow" data-aos="fade-up">
+					<img src="img/TBS.png" alt="" class="" />
+					<div class="comment-info-wrapper">
+						<div class="comment-info">
+							<span class="comment-date">Nov.5th</span>
+							<span class="comment-ammount">21</span>
+						</div>
+						<div class="recentPost-details">
+							<h1 class="recentPost-details-heading">Legal Conculation</h1>
+							<p class="recentPost-details-para">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi
+								eaque quas quia delectus dolore sed quod laborum iure natus.
+							</p>
+							<button class="recentPost-button">Read More</button>
+						</div>
+					</div>
+				</div>
+				<br /><br /><br />
+			</div>
+		</div>
+	</div>
+	<!-- recent post end -->
+	<!-- Attorneys section start -->
+	<div class="main-wrapper">
+		<div class="sub-wrapper">
+			<div class="Attorneys-wrapper">
+				<div class="Attorneys-wrapper-header animate__animated animate__bounceIn wow">
+					<h1 class="">Our Attorneys</h1>
+					<p class="">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem saepe
+						optio provident, officia consequatur, nostrum voluptates quibusdam
+						recusandae dolor esse temporibus incidunt hic minus ipsam non voluptatem
+						quo. Magni, non?
+					</p>
+				</div>
+				<div class="Attorneys-profile animate__animated animate__bounceIn wow" data-aos="slide-up">
+					<img src="img/Salman.jpg" alt="" class="Attorneys-img" />
+					<h1 class="Attorneys-img-h1">Salman Farshe</h1>
+					<p>counsiler</p>
+					<p class="Attorneys-img-p">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, Lorem
+						ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veritatis?
+					</p>
+					<div class="social-shere-icons">
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-facebook-square"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-twitter"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-dribbble"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="Attorneys-profile animate__animated animate__bounceIn wow" data-aos="slide-up">
+					<img src="img/Sabbir.JPG" alt="" class="Attorneys-img" />
+					<h1 class="Attorneys-img-h1">Muhammad Sabbir</h1>
+					<p>designer</p>
+					<p class="Attorneys-img-p">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, Lorem
+						ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veritatis?
+					</p>
+					<div class="social-shere-icons">
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-facebook-square"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-twitter"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-dribbble"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="Attorneys-profile animate__animated animate__bounceIn wow" data-aos="slide-up">
+					<img src="img/Tarek (2).jpg" alt="" class="Attorneys-img" />
+					<h1 class="Attorneys-img-h1">Tareque Ahmed</h1>
+					<p>devloper</p>
+					<p class="Attorneys-img-p">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, Lorem
+						ipsum dolor sit amet consectetur adipisicing elit. Quisquam, veritatis?
+					</p>
+					<div class="social-shere-icons">
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-facebook-square"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-twitter"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-dribbble"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Attorneys section end -->
+	<!-- Legal Advice section start -->
+	<div class="Legal-Advice-main-wrapper">
+		<div class="sub-wrapper">
+			<div class="Legal-Advice-wrapper">
+				<h1 class="Legal-Advice-wrapper-h1">Legal Advice</h1>
+				<p class="">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem unde
+					maiores adipisci ullam consequuntur minus corrupti voluptas excepturi.
+					Aliquid, expedita. Laboriosam et possimus aspernatur dolore rerum voluptas
+					tenetur consequuntur quasi.
+				</p>
+				<button class="Legal-Advice-btn">Consultation</button>
+			</div>
+		</div>
+	</div>
+	<!-- Legal Advice section end -->
+	<!-- footer section start -->
+	<div class="main-wrapper-footer">
+		<div class="sub-wrapper">
+			<footer class="footer-wrapper">
+				<div class="footer-left-div" style="margin-left: 25px">
+					<h3 class="">Attorney's Law</h3>
+					<p class="footer-wrapper-p">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+						necessitatibus deleniti ipsum labore doloremque,
+					</p>
+				</div>
+				<div class="Navigation">
+					<h3 class="">Navigation</h3>
+					<a href="#" class="">Home</a>
+					<a href="#" class="">Practice Areas</a>
+					<a href="#" class="">Won Cases</a>
+					<a href="#" class="">Blog</a>
+					<a href="#" class="">Abouth Us</a>
+				</div>
+				<div class="Contack-information">
+					<h3 class="">Contack information</h3>
+					<span class="Contack-information-p">198 West 21th Street,</span>
+					<span class="Contack-information-p">Suite 721 New York NY 10016</span>
+					<a href="#" class="Contack-information-p">+ 1235 2355 98</a>
+					<a href="#" class="Contack-information-p">info@yoursite.com</a>
+					<a href="#" class="Contack-information-p">gettemplates.co</a>
+				</div>
+				<div class="Oppenning-Hours">
+					<h3 class="">Oppenning Hours</h3>
+					<span class="Oppenning-Hours-p">Mon - Thu: 9:00 - 21 00</span>
+					<span class="Oppenning-Hours-p">Fri 8:00 - 21 00</span>
+					<span class="Oppenning-Hours-p">Sat 9:30 - 15: 00</span>
+				</div>
 
-		<!---------------------------------------------------------------------------->
-		<!-- all CDN scripts goes here -->
-		<!-- jquery.js start here-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<!-- jquery.js end -->
+				<div class="copyRight-section">
+					<span class="">© 2016 Free HTML5. All Rights Reserved.</span>
+					<span class="">Designed by FreeHTML5.co Demo Images: Unsplash</span>
+					<span class="">Here I designe and modied only for my practice purpose</span>
+					<div class="social-shere-icons">
+						<a href="" class="social-icon-link"><i class="social-icon-main fa fa-facebook-square"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon-main fa fa-twitter"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon-main fa fa-dribbble"></i></a>
+						<a href="" class="social-icon-link"><i class="social-icon-main fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<!-- footer section end -->
+	<!---------------------------------------------------------------------------->
+	<!-- all CDN scripts goes here -->
+	<!-- jquery.js start here-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- jquery.js end -->
 
-		<!-- owl carusel start -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-		<!-- owl carusel end -->
+	<!-- owl carusel start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- owl carusel end -->
 
-		<!-- flex slider jquery start -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.min.js"></script>
-		<!-- flex slider jquery end -->
+	<!-- flex slider jquery start -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.min.js"></script>
+	<!-- flex slider jquery end -->
 
-		<!-- popper.js for bootstrap start here-->
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-		<!-- popper.js for btstrp-5.0 start here-->
-		<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
-		<!-- popper.js end -->
+	<!-- popper.js for bootstrap start here-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<!-- popper.js for btstrp-5.0 start here-->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
+	<!-- popper.js end -->
 
-		<!-- bootstrap.js 4.6.0-->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-		<!-- bootstrap.js 5.0-->
-		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script> -->
-		<!-- bootstrap.js end -->
+	<!-- bootstrap.js 4.6.0-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+	<!-- bootstrap.js 5.0-->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script> -->
+	<!-- bootstrap.js end -->
 
-		<!-- wow js cdn start here -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-		<!-- wow js cdn end -->
+	<!-- wow js cdn start here -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<!-- wow js cdn end -->
 
-		<!-- aos cdn start here-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
-		<!-- aos cdn end-->
-		<!-- all CDN scripts end-->
-		<!---------------------------------------------------------------------------->
+	<!-- aos cdn start here-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
+	<!-- aos cdn end-->
+	<!-- all CDN scripts end-->
+	<!---------------------------------------------------------------------------->
 
-		<!---------------------------------------------------------------------------->
-		<!-- local script goes here -->
-		<!-- jquery 3.6.0 local -->
-		<script src="js/jquery-3.6.0.min.js"></script>
-		<!-- jquery 3.6.0 local -->
+	<!---------------------------------------------------------------------------->
+	<!-- local script goes here -->
+	<!-- jquery 3.6.0 local -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- jquery 3.6.0 local -->
 
-		<!-- bootstrap 4.6.0 local script -->
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<!-- bootstrap 4.6.0 local script -->
-		<!-- local script end -->
-		<!---------------------------------------------------------------------------->
+	<!-- bootstrap 4.6.0 local script -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- bootstrap 4.6.0 local script -->
+	<!-- local script end -->
+	<!---------------------------------------------------------------------------->
 
-		<!---------------------------------------------------------------------------->
-		<!-- root script goes here -->
-		<!-- initialising aos.js and wow.js -->
-		<script>
-			new WOW().init();
-		</script>
+	<!---------------------------------------------------------------------------->
+	<!-- root script goes here -->
+	<!-- initialising aos.js and wow.js -->
+	<script>
+		new WOW().init();
+	</script>
 
-		<script>
-			AOS.init();
-		</script>
+	<script>
+		AOS.init();
+	</script>
 
-		<script>
-			$(document).ready(function () {
-				$(".testimonial").owlCarousel({
-					items: 1,
-					loop: true,
-					autoplay: true,
-					autoplayTimeout: 3000,
-					autoplayHoverPause: true,
-					responsive: {
-						0: {
-							items: 1,
-						},
-						600: {
-							items: 1,
-						},
-						1000: {
-							items: 1,
-						},
+	<script>
+		$(document).ready(function () {
+			$(".testimonial").owlCarousel({
+				items: 1,
+				loop: true,
+				autoplay: true,
+				autoplayTimeout: 3000,
+				autoplayHoverPause: true,
+				responsive: {
+					0: {
+						items: 1,
 					},
-				});
+					600: {
+						items: 1,
+					},
+					1000: {
+						items: 1,
+					},
+				},
 			});
-		</script>
-		<!-- initialising aos.js and wow.js done!! -->
+		});
+	</script>
+	<!-- initialising aos.js and wow.js done!! -->
 
-		<script src="js/root.js"></script>
-		<!-- root script end -->
-		<!---------------------------------------------------------------------------->
-	</body>
+	<script src="js/root.js"></script>
+	<!-- root script end -->
+	<!---------------------------------------------------------------------------->
+</body>
+
 </html>
